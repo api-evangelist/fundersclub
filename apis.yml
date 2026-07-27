@@ -1,8 +1,23 @@
 aid: fundersclub
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/fundersclub.png
 name: FundersClub
-description: FundersClub is a company surfaced as a portfolio company of a16z, felicis, y-combinator and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: FundersClub is an online venture capital firm and investment platform based in San Francisco
+  that lets accredited investors browse, evaluate, and invest in curated early-stage technology startups
+  through professionally managed, single-purpose venture funds. Founders apply for funding and, once selected,
+  gain access to capital, a partner network, and post-investment support. Backed by a16z, Felicis, and
+  Y Combinator, FundersClub pioneered the online VC model. The company publishes no public developer API;
+  this API Evangelist profile tracks its web, identity, and domain-security surface for the network.
 url: https://raw.githubusercontent.com/api-evangelist/fundersclub/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -14,9 +29,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Venture Capital
+- Startups
+- Investing
+- Fintech
+- Private Markets
+- Fund Administration
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,3 +47,20 @@ maintainers:
 common:
 - type: Website
   url: https://fundersclub.com
+- type: Blog
+  url: https://fundersclub.com/blog/
+- type: GitHubOrganization
+  url: https://github.com/fundersclub
+- type: Support
+  url: https://fundersclub.com/contact/
+- type: TermsOfService
+  url: https://fundersclub.com/terms-of-use/
+- type: PrivacyPolicy
+  url: https://fundersclub.com/privacy/
+- type: DomainSecurity
+  url: security/fundersclub-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
